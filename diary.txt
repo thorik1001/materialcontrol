@@ -1,0 +1,57 @@
+Catatan Thorik
+Aplikasi Duta WebAPP
+
+Januari 6, 2021 
+Membuat UI Admin dengan kondisi login form
+Membuat user level
+membuat master item, supplier, lokasi, project
+Membuat menu berdasarkan user level
+------------------------------------------------------  
+
+Januari 7, 2021 
+Membuat UI Admin dengan kondisi login form
+Membuat user level
+membuat master item, supplier, lokasi, project
+Membuat menu berdasarkan user level
+------------------------------------------------------  
+
+Januari 8, 2021 
+Membuat UI Admin dengan kondisi login form
+Membuat user level
+membuat master item, supplier, lokasi, project
+Membuat menu berdasarkan user level
+------------------------------------------------------  
+
+Januari 11, 2021 
+Membuat Form permintaan 
+------------------------------------------------------  
+
+Januari 12, 2021 
+Purchase Requistion :
+
+1. 	Buat Permintaan dan Kosongkan data Item 	ok
+2. 	Hasil dari buat permintaan disimpan dalam 2 tabel, yaitu tabel PR dan tabel item
+	dengan Relasi berdasarkan No PR.
+
+	hapus : 	
+		
+		<?php
+	
+		$c="SELECT * FROM tblpritem";
+		$d="DELETE FROM `tblpritem` WHERE 1";
+		
+		?>
+
+	pada 'pr_insert'
+	--------------------------------------------------- OK
+	
+3.  Simpan DATA pada item_insert ke pr_insert 
+	dari tblperitem ke tblpr
+	
+	.................. on progress
+	
+	
+
+	
+
+	
